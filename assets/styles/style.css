@@ -1,0 +1,307 @@
+body {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px 20px 0px 20px;
+}
+
+.hero img {
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.recipe-intro {
+    margin: 55px
+}
+
+.recipe-intro h1 {
+    color: hsl(24, 5%, 18%);
+    font-size: 80px;
+}
+
+.recipe-intro p {
+    color: hsl(30, 10%, 34%);
+    font-size: 33px;
+}
+
+.preparation {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    margin: 55px;
+    border-radius: 20px;
+    background-color: hsl(330, 100%, 98%);
+
+}
+
+.preparation h3 {
+    color: hsl(332, 51%, 32%);
+    padding: 20px 0px 0px 50px;
+    font-size: 40px;
+}
+
+.preparation ul {
+    padding: 0px 0px 20px 95px;
+    font-size: 33px;
+    margin-top: -10px;
+}
+
+.preparation ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation ul li {
+    padding: 0px 40px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 2;
+}
+
+.preparation ul li span {
+    font-weight: 600;
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredients {
+    margin: 55px;
+}
+
+.ingredients h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 55px;
+}
+
+.ingredients ul {
+    padding: 0px 0px 20px 40px;
+    font-size: 33px;
+}
+
+.ingredients ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul li {
+    padding: 0px 40px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 2;
+}   
+
+hr {
+    margin: 0px 55px;
+}
+
+.instructions {
+    margin: 55px;
+}
+
+.instructions h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 55px;
+}
+
+.instructions ol {
+    padding: 0px 0px 20px 40px;
+    font-size: 33px;
+}
+
+.instructions ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.instructions ol li {
+    padding: 0px 40px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 2;
+}
+
+.instructions ol li span {
+    font-weight: 600;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition {
+    margin: 55px;
+}
+
+.nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 55px;
+}
+
+.nutrition p {
+    color: hsl(30, 10%, 34%);
+    font-size: 33px;
+}
+
+.nutrition hr {
+    margin: 0;
+}
+
+.nutrition .nutrition-row {
+    display: flex;
+    line-height: 3;
+}
+
+.nutrition .nutrition-row .label {
+    flex: 1;
+    text-align: left;
+    font-size: 33px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-left: 65px; 
+
+}
+
+.nutrition .nutrition-row .value {
+    flex: 1;
+    text-align: left;
+    font-size: 33px;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px; 
+}
+
+.attribution {
+    text-align: center;
+    font-size: 33px;
+    color: hsl(30, 10%, 34%);
+}
+
+/* responsive mobile */
+@media screen and (max-width: 600px) {
+    .hero {
+        text-align: center;
+        margin: 0
+    }
+
+    .hero img {
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+    .recipe-intro {
+        margin: 25px
+    }
+
+    .recipe-intro h1 {
+        font-size: 38px;
+    }
+
+    .recipe-intro p {
+        font-size: 20px;
+    }
+
+    .preparation {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        margin: 20px;
+
+    }
+
+    .preparation h3 {
+        padding: 0px 0px 0px 30px;
+        font-size: 25px;
+    }
+
+    .preparation ul {
+        padding: 0px 0px 0px 10px;
+        margin-left: 50px;
+        font-size: 20px;
+        margin-top: -10px;
+    }
+
+    .preparation ul li {
+        padding: 0px 20px;
+        line-height: 2;
+    }
+
+    .ingredients {
+        margin: 20px;
+    }
+
+    .ingredients h2 {
+        font-size: 35px;
+    }
+
+    .ingredients ul {
+        padding: 0px 0px 0px 10px;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .ingredients ul li {
+        padding: 0px 20px;
+        line-height: 2;
+    } 
+
+    hr {
+        margin: 0px 20px;
+    }
+
+    .instructions {
+        margin: 20px;
+    }
+
+    .instructions h2 {
+        font-size: 35px;
+    }
+
+    .instructions ol {
+        padding: 0px 0px 0px 30px;
+        font-size: 20px;
+    }
+
+    .instructions ol li {
+        padding: 0px 20px;
+    }
+    
+    .nutrition {
+        margin: 20px;
+    }
+
+    .nutrition h2 {
+        font-size: 35px;
+    }
+
+    .nutrition p {
+        font-size: 20px;
+    }
+
+    .nutrition .nutrition-row {
+        display: flex;
+        line-height: 3;
+    }
+
+    .nutrition .nutrition-row .label {
+        flex: 1;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 30px; 
+
+    }
+
+    .nutrition .nutrition-row .value {
+        flex: 1;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .attribution {
+        text-align: center;
+        font-size: 15px;
+    }
+}
